@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rigbuilder</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="rig.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+
+</head>
+<body>
+</div>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your CPU</h4>
+		      	</div>
+		    	<div class="modal-body">
+		        		<p>CPU</p> 
+		        		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Intel</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">AMD</a></li> 
+    </ul>
+  </div>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">intel core i5-4210u</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">amd radeon r5 m230</a></li> 
+    </ul>
+  </div>
+
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">
+		     	   Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your GPU</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>GPU</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ATI</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NVIDIA</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MSI</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ASUS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">EVGA</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">GIGABYTE</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">SAPPHIRE</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">XFX</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">POWER COLOR</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PALIT</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ZOTAC</a></li>
+    </ul>
+  </div>
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">GeForce GTX 780</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Quardo K4000</a></li> 
+    </ul>
+  </div>
+
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your Motherboard</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>Motherboard</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ASROCK</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">GIGABYTE</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ASUS</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your RAM</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>RAM</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CORSAIR</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">KINGSTON</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">G.SKILL</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">GEIL</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A-DATA</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">LENOVO</a></li>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your HDD</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>HDD</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">SEAGATE</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">WESTERN DIGITAL</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">TOSHIBA</a></li>      
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your PSU</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		PSU
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand			
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CORSAIR</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">COOLER MASTER</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">EVGA</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Choose</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Choose your SSD</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>SSD</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Save changes</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Chose your Cooler</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>Cooler</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Save changes</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Chose your Case</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>Case</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+    </ul>
+  </div>
+        <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Save changes</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+	<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	 	<div class="modal-dialog" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		       		<button type="button" class="close" data-dismiss="modal" aria-label="	Close"><span aria-hidden="true">&times;</span></button>
+		        	<h4 class="modal-title" id="myModalLabel">Chose your CD ROM</h4>
+		      	</div>
+		    	<div class="modal-body">
+		    		<p>CD ROM</p>
+		    		<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Brand
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Model
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"></a></li> 
+    </ul>
+  </div>
+		     	</div>
+		     	<div class="modal-footer">
+		     	   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	<button type="button" class="btn btn-primary">Save changes</button>
+		     	 </div>
+	    	</div>
+	  	</div>
+	</div>
+
+	<div id="segments" class="row">
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal" src="images/30-256.png"><h1>CPU</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal1" src="images/34-512.png"><h1>GPU</h1>
+	  </div>
+	  <div class="clearfix visible-xs-block">
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal2" src="images/mainboard-256.png"><h1>Motherboard</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal3" src="images/Computer_hardware_icons-11-256.png"><h1>RAM</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal4" src="images/HDD-256.png"><h1>HDD</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal5" src="images/PSU.png"><h1>PSU</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal6" src="images/ssd.png"><h1>SSD</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal7" src="images/Cooler.png"><h1>Cooler</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal8" src="images/Case.png"><h1>Case</h1>
+	  </div>
+	  <div class="col-md-3 col-sm-4"><img class="buttonSegment img-rounded" data-toggle="modal" data-target		="#myModal9" src="images/CD ROM.png"><h1>CD ROM</h1>
+	  </div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
